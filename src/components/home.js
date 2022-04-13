@@ -72,6 +72,9 @@ function Home() {
           </div>
         </div>
       </nav>
+
+
+      
     <section class="hero is-medium">
       <div class="hero-body">
         <div class="container">
