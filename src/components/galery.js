@@ -50,7 +50,7 @@ function Galery() {
               </a>
 
               <div class="navbar-dropdown">
-                <a class="navbar-item">
+                <a class="navbar-item"  href='/about'>
                   About
                 </a>
                 <a class="navbar-item">

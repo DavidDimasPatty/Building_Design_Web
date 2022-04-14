@@ -2,9 +2,8 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 import Home from './components/home';
 import  Galery  from './components/galery';
-
 import  Pricing  from './components/pricing';
-
+import  About  from './components/about';
 function App() {
   
   
@@ -23,7 +22,9 @@ function App() {
         <Route exact path="/pricing">
           <Pricing/>
         </Route>
-      
+        <Route exact path="/about">
+          <About/>
+        </Route>
       
       </Switch>
       
