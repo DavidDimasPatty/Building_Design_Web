@@ -4,6 +4,8 @@ import Home from './components/home';
 import  Galery  from './components/galery';
 import  Pricing  from './components/pricing';
 import  About  from './components/about';
+import  Employee  from './components/employee';
+import  Contact  from './components/contact';
 function App() {
   
   
@@ -25,7 +27,12 @@ function App() {
         <Route exact path="/about">
           <About/>
         </Route>
-      
+        <Route exact path="/employee">
+          <Employee/>
+        </Route>
+        <Route exact path="/contact">
+          <Contact/>
+        </Route>
       </Switch>
       
     </Router>

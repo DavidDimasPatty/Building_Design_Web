@@ -52,11 +52,11 @@ function Home() {
                 <a class="navbar-item" href='/about'>
                   About
                 </a>
-                <a class="navbar-item">
-                  Jobs
+                <a class="navbar-item" href='/employee'>
+                  Employee
                 </a>
-                <a class="navbar-item">
-                  Contact
+                <a class="navbar-item" href='/contact'>
+                  Contact Us
                 </a>
                 <hr class="navbar-divider"/>
                 <a class="navbar-item">
