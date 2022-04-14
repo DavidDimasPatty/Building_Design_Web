@@ -22,14 +22,14 @@ function App() {
       <Switch>
         
         <Route exact path="/">
-          <div style={{position:"sticky",top:"0"}}>
+        <div style={{position:"sticky",top:"0",zIndex:"1030"}}>
           <Header/>
           </div>
           <Home/>
         </Route>
         
         <Route exact path="/galery">
-        <div style={{position:"sticky",top:"0"}}>
+        <div style={{position:"sticky",top:"0",zIndex:"1030"}}>
           <Header/>
           </div>
           <Galery/>
@@ -40,42 +40,42 @@ function App() {
         </Route>
 
         <Route exact path="/about">
-        <div style={{position:"sticky",top:"0"}}>
+        <div style={{position:"sticky",top:"0",zIndex:"1030"}}>
           <Header/>
           </div>
           <About/>
         </Route>
 
         <Route exact path="/employee">
-        <div style={{position:"sticky",top:"0"}}>
+        <div style={{position:"sticky",top:"0",zIndex:"1030"}}>
           <Header/>
           </div>
           <Employee/>
         </Route>
 
         <Route exact path="/contact">
-        <div style={{position:"sticky",top:"0"}}>
+        <div style={{position:"sticky",top:"0",zIndex:"1030"}}>
           <Header/>
           </div>
           <Contact/>
         </Route>
 
         <Route exact path="/order">
-        <div style={{position:"sticky",top:"0"}}>
+        <div style={{position:"sticky",top:"0",zIndex:"1030"}}>
           <Header/>
           </div>
           <Order/>
         </Route>
 
         <Route exact path="/order/1">
-        <div style={{position:"sticky",top:"0"}}>
+        <div style={{position:"sticky",top:"0",zIndex:"1030"}}>
           <Header/>
           </div>
           <FormOrder/>
         </Route>
         
         <Route exact path="/feed">
-        <div style={{position:"sticky",top:"0"}}>
+        <div style={{position:"sticky",top:"0",zIndex:"1030"}}>
           <Header/>
           </div>
           <Feed/>

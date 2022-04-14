@@ -1,27 +1,7 @@
 import React from 'react'
 
 function Feed() {
-    const css=`.navbar {
-        position: fixed;
-        left: 0;
-        top: 0;
-        z-index: 2;
-        background-color: white;
-        justify-content: space-around;
-        width: 100%;
-        border-bottom: 1px solid lightgray;
-    }
-    .navbar-menu {
-        flex-grow: 0.5;
-        justify-content: center;
-    }
-    .navbar-menu .navbar-item {
-        flex-grow: 1;
-        justify-content: center;
-    }
-    .navbar-menu .navbar-item .control {
-        width: 50%;
-    }
+    const css=`
     .body-columns {
         margin-top: 10vh;
     }
@@ -57,7 +37,7 @@ function Feed() {
         }
     } */`
   return (
-    <div>
+    <div  style={{position:"relative"}}>
         <style>{css}</style>
     <head>
     <meta charset="utf-8"/>
