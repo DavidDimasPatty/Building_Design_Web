@@ -95,7 +95,7 @@ function Header() {
            left: "0",
            zIndex: "1030"} }>
         <div class="navbar-brand">
-          <a class="navbar-item" href="#">
+          <a class="navbar-item" href="/">
             <b>Your Design</b>
             {/* <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"/> */}
           </a>
