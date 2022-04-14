@@ -11,6 +11,7 @@ import  SignUp  from './components/signup';
 import  Login  from './components/login';
 import Order from './components/order';
 import FormOrder from './components/form_order';
+import Feed from './components/feed';
 function App() {
   
   
@@ -71,6 +72,13 @@ function App() {
           <Header/>
           </div>
           <FormOrder/>
+        </Route>
+        
+        <Route exact path="/feed">
+        <div style={{position:"sticky",top:"0"}}>
+          <Header/>
+          </div>
+          <Feed/>
         </Route>
 
         <Route exact path="/signup">

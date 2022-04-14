@@ -30,6 +30,10 @@ function Header() {
               Order
             </a>
 
+            <a class="navbar-item" href="/feed">
+              Feeds
+            </a>
+
             <div class="navbar-item has-dropdown is-hoverable">
               <a class="navbar-link">
                 More
