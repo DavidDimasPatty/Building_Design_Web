@@ -60,9 +60,9 @@ function Employee() {
                   Contact Us
                 </a>
                 <hr class="navbar-divider"/>
-                <a class="navbar-item">
+             {/*    <a class="navbar-item">
                   Report an issue
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -70,9 +70,8 @@ function Employee() {
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="buttons">
-              <a href="#" class="button is-white is-inverted">Log In<i class="fad fa-chevron-right"></i></a>
-              <a href="#" class="button is-white is-inverted">Sign Up<i class="fad fa-chevron-right"></i></a>
-              </div>
+              <a href="/login" class="button is-white is-inverted">Log In<i class="fad fa-chevron-right"></i></a>
+              <a href="/signup" class="button is-white is-inverted">Sign Up<i class="fad fa-chevron-right"></i></a>              </div>
             </div>
           </div>
         </div>

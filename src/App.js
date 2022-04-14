@@ -6,6 +6,8 @@ import  Pricing  from './components/pricing';
 import  About  from './components/about';
 import  Employee  from './components/employee';
 import  Contact  from './components/contact';
+import  SignUp  from './components/signup';
+import  Login  from './components/login';
 function App() {
   
   
@@ -33,6 +35,13 @@ function App() {
         <Route exact path="/contact">
           <Contact/>
         </Route>
+        <Route exact path="/signup">
+          <SignUp/>
+        </Route>
+        <Route exact path="/login">
+          <Login/>
+        </Route>
+
       </Switch>
       
     </Router>
