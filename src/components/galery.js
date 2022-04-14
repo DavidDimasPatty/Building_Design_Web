@@ -22,8 +22,8 @@ function Galery() {
       <body>
      
         <div class="box cta">
-          <p class="has-text-centered">
-            <span class="tag is-primary">New</span> Here we have modal cards. When you click on them they will open functional modal examples.
+          <p class="has-text-centered" style={{fontSize:"1.5rem", fontWeight:"100"}}>
+            <span class="tag is-primary">New</span> Welcome To Our Gallery! 
           </p>
         </div>
         <section class="container">
@@ -39,7 +39,7 @@ function Galery() {
                   <div class="content">
                     <h4>Click on image above</h4>
                     <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.</p>
-                    <span class="button is-link modal-button" data-target="modal-image2">Image modal</span>
+                    <span class="button modal-button" data-target="modal-image2" style={{backgroundColor:"black",color:'whitesmoke'}}>Image modal</span>
                   </div>
                 </div>
               </div>
@@ -56,7 +56,7 @@ function Galery() {
                     <h4>Tempor orci dapibus faber in.</h4>
                     <p>Ut venenatis tellus in metus vulputate. Amet consectetur adipiscing elit pellentesque. Sed arcu non odio euismod lacinia at quis risus. Faucibus turpis in eu mi bibendum neque egestas cmonsu songue. Phasellus vestibulum lorem
                     sed risus.</p>
-                    <span class="button is-link modal-button" data-target="modal-card">Modal Card</span>
+                    <span class="button is-link modal-button" data-target="modal-card" style={{backgroundColor:"black",color:'whitesmoke'}}>Modal Card</span>
                   </div>
                 </div>
               </div>
@@ -72,7 +72,7 @@ function Galery() {
                   <div class="content">
                     <h4>Click anywhere on card</h4>
                     <p>Imperdiet dui accumsan sit amet nulla facilisi morbi. Fusce ut placerat orci nulla pellentesque dignissim enim. Libero id faucibus nisl tincidunt eget nullam. Commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                    <span class="button is-link modal-button" data-target="modal-image">Image modal</span>
+                    <span class="button is-link modal-button" data-target="modal-image" style={{backgroundColor:"black",color:'whitesmoke'}}>Image modal</span>
                   </div>
                 </div>
               </div>
@@ -90,7 +90,7 @@ function Galery() {
                   <div class="content">
                     <h4>Click anywhere on card to <br/>expand into modal card</h4>
                     <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.</p>
-                    <span class="button is-link modal-button">Modal card</span>
+                    <span class="button is-link modal-button"  style={{backgroundColor:"black",color:'whitesmoke'}}>Modal card</span>
                   </div>
                 </div>
               </div>
@@ -106,7 +106,7 @@ function Galery() {
                   <div class="content">
                     <h4>Click anywhere on card to <br/>expand into modal card - header image expands into bigger image</h4>
                     <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis.</p>
-                    <span class="button is-link modal-button">Modal card</span>
+                    <span class="button is-link modal-button"  style={{backgroundColor:"black",color:'whitesmoke'}}>Modal card</span>
                   </div>
                 </div>
               </div>

@@ -119,7 +119,7 @@ function SignUp() {
                         <input class="input is-medium" type="email" placeholder="Email"/>
                       </div>
                     </div>
-                    <button class="button is-block is-primary is-fullwidth is-medium">Submit</button>
+                    <button class="button is-block is-primary is-fullwidth is-medium"  style={{backgroundColor:"black",color:'whitesmoke'}}>Submit</button>
                     <br />
                     <small><em>Lorem ipsum dolor sit amet consectetur.</em></small>
                   </form>
